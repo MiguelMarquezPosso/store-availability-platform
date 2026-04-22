@@ -92,7 +92,7 @@ API RESTful que procesa archivos CSV con eventos de disponibilidad de tiendas (o
 Asigna a GEMINI_API_KEY tu propia API key de Google Gemini.
 
 ```env
-DATA_ZIP_URL=https://drive.google.com/uc?export=download&id=XXXX
+DATA_ZIP_URL=https://drive.google.com/uc?export=download&id=1RlX-BzLvSehEc_cwCuWmu_PhFRiNJvrE
 FRONTEND_ORIGIN=http://localhost:5173
 GEMINI_API_KEY=
 ```
@@ -120,7 +120,7 @@ Incluye métricas, filtros, tabla, gráficas y chatbot.
 ## Variables de entorno (.env)
 
 ```env
-VITE_API_BASE=http://localhost:8000/api
+VITE_API_BASE=http://localhost:8000
 ```
 
 ---
