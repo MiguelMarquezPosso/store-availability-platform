@@ -170,7 +170,7 @@ VITE_API_BASE=http://localhost:8000
 ## Ejecutar Frontend localmente
 
 ```bash
-cd frontend
+cd store-availability-dashboard
 npm install
 npm run dev
 ```
