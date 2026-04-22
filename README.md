@@ -68,7 +68,42 @@ store-availability/
 
 ---
 
-# ⚡ BACKEND (FastAPI)
+# 🐳 DEVOPS
+
+## docker-compose.yml
+
+```yaml
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    container_name: store-availability-api
+    env_file:
+      - ./backend/.env
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build: ./frontend
+    container_name: store-availability-dashboard
+    env_file:
+      - ./frontend/.env
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+```
+
+## Ejecutar Backend y Frontend localmente
+
+```bash
+docker-compose up --build
+```
+
+---
+
+# ⚡ BACKEND (FastAPI + Python)
 
 ## Descripción
 API RESTful que procesa archivos CSV con eventos de disponibilidad de tiendas (online/offline), genera métricas y ofrece un endpoint de chatbot basado en LLM.
@@ -107,7 +142,7 @@ uvicorn app.main:app --reload
 
 ---
 
-# 🚀 FRONTEND (React + TypeScript)
+# 🚀 FRONTEND (React + TypeScript + Vite)
 
 ## Descripción
 Dashboard construido con Vite + React + TypeScript.  
@@ -127,40 +162,6 @@ VITE_API_BASE=http://localhost:8000
 cd frontend
 npm install
 npm run dev
-```
----
-
-# 🐳 DEVOPS
-
-## docker-compose.yml
-
-```yaml
-version: "3.9"
-
-services:
-  backend:
-    build: ./backend
-    container_name: store-availability-api
-    env_file:
-      - ./backend/.env
-    ports:
-      - "8000:8000"
-
-  frontend:
-    build: ./frontend
-    container_name: store-availability-dashboard
-    env_file:
-      - ./frontend/.env
-    ports:
-      - "5173:5173"
-    depends_on:
-      - backend
-```
-
-## Ejecutar Backend y Frontend localmente
-
-```bash
-docker-compose up --build
 ```
 
 # 🧩 Chatbot
