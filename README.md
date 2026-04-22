@@ -77,20 +77,18 @@ version: "3.9"
 
 services:
   backend:
-    build: ./backend
-    container_name: store-availability-api
-    env_file:
-      - ./backend/.env
+    build: ./store-availability-api
     ports:
       - "8000:8000"
+    env_file:
+      - ./store-availability-api/.env
 
   frontend:
-    build: ./frontend
-    container_name: store-availability-dashboard
-    env_file:
-      - ./frontend/.env
+    build: ./store-availability-dashboard
     ports:
       - "5173:5173"
+    env_file:
+      - ./store-availability-dashboard/.env
     depends_on:
       - backend
 ```
