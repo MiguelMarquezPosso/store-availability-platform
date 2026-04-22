@@ -1,4 +1,4 @@
-# ⚡ BACKEND (FastAPI + Python)
+# ⚡ Backend (FastAPI + Python)
 
 ## Descripción
 API RESTful que procesa archivos CSV con eventos de disponibilidad de tiendas (online/offline), genera métricas y ofrece un endpoint de chatbot basado en LLM.
