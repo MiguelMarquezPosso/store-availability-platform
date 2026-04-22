@@ -102,7 +102,7 @@ GEMINI_API_KEY=
 ## Ejecutar Backend localmente
 
 ```bash
-cd backend
+cd store-availability-api
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
