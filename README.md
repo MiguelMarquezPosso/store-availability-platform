@@ -85,8 +85,6 @@ API RESTful que procesa archivos CSV con eventos de disponibilidad de tiendas (o
 - `GET /api/availability/store/{store_id}/intervals`
 - `POST /api/chatbot`
 
----
-
 ## Variables de entorno (.env)
 
 Asigna a GEMINI_API_KEY tu propia API key de Google Gemini.
@@ -96,8 +94,6 @@ DATA_ZIP_URL=https://drive.google.com/uc?export=download&id=1RlX-BzLvSehEc_cwCuW
 FRONTEND_ORIGIN=http://localhost:5173
 GEMINI_API_KEY=
 ```
-
----
 
 ## Ejecutar Backend localmente
 
@@ -160,8 +156,6 @@ services:
     depends_on:
       - backend
 ```
-
----
 
 # Ejecutar Backend y Frontend localmente
 
