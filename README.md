@@ -157,7 +157,7 @@ services:
       - backend
 ```
 
-# Ejecutar Backend y Frontend localmente
+## Ejecutar Backend y Frontend localmente
 
 ```bash
 docker-compose up --build
