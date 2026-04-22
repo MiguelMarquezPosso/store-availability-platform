@@ -98,8 +98,14 @@ services:
 ```bash
 docker-compose up --build
 ```
-Frontend: ```bash http://localhost:5173```
-Backend: ```bash http://localhost:8000```
+Frontend: 
+```bash 
+http://localhost:5173
+```
+Backend: 
+```bash 
+http://localhost:8000
+```
 
 ---
 
@@ -140,7 +146,10 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
-Backend: ```bash http://localhost:8000```
+Backend: 
+```bash 
+http://localhost:8000
+```
 
 ---
 
@@ -165,7 +174,10 @@ cd frontend
 npm install
 npm run dev
 ```
-Frontend: ```bash http://localhost:5173```
+Frontend: 
+```bash 
+http://localhost:5173
+```
 
 # 🧩 Chatbot
 
