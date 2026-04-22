@@ -1,0 +1,27 @@
+:root {
+  --text: #1f2937;
+  --text-strong: #0f172a;
+  --text-muted: #6b7280;
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --border: #e2e8f0;
+  --accent: #6366f1;
+  --accent-bg: rgba(99, 102, 241, 0.15);
+  --shadow:
+          rgba(15, 23, 42, 0.06) 0 10px 20px -5px,
+          rgba(15, 23, 42, 0.08) 0 4px 6px -4px;
+
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
