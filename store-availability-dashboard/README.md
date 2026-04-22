@@ -19,3 +19,7 @@ cd frontend
 npm install
 npm run dev
 ```
+Frontend: 
+```bash 
+http://localhost:5173
+```
