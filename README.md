@@ -5,7 +5,7 @@ Incluye un **backend RESTful en FastAPI**, un **frontend moderno en React + Type
 
 ---
 
-# 🧱 Arquitectura General
+# 📁 Arquitectura General
 
 ```
 store-availability/
@@ -130,7 +130,7 @@ npm run dev
 ```
 ---
 
-# DEVOPS
+# 🐳 DEVOPS
 
 ## docker-compose.yml
 
@@ -162,8 +162,6 @@ services:
 ```bash
 docker-compose up --build
 ```
-
----
 
 # 🧩 Chatbot
 
