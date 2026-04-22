@@ -171,7 +171,7 @@ docker-compose up --build
 
 ---
 
-# 🧩 Chatbot (anti-alucinación)
+# 🧩 Chatbot
 
 El chatbot utiliza un LLM con contexto generado a partir de los datos reales procesados.  
 Si la respuesta no puede inferirse del contexto, devuelve un mensaje indicando que no hay datos suficientes.
