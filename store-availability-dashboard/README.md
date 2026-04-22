@@ -1,4 +1,4 @@
-# 🚀 FRONTEND (React + TypeScript + Vite)
+# 🚀 Frontend (React + TypeScript + Vite)
 
 ## Descripción
 Dashboard construido con Vite + React + TypeScript.  
