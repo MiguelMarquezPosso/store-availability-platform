@@ -68,7 +68,7 @@ store-availability/
 
 ---
 
-# 🐳 DEVOPS
+# 🐳 DevOps
 
 ## docker-compose.yml
 
@@ -103,7 +103,7 @@ docker-compose up --build
 
 ---
 
-# ⚡ BACKEND (FastAPI + Python)
+# ⚡ Backend (FastAPI + Python)
 
 ## Descripción
 API RESTful que procesa archivos CSV con eventos de disponibilidad de tiendas (online/offline), genera métricas y ofrece un endpoint de chatbot basado en LLM.
@@ -142,7 +142,7 @@ uvicorn app.main:app --reload
 
 ---
 
-# 🚀 FRONTEND (React + TypeScript + Vite)
+# 🚀 Frontend (React + TypeScript + Vite)
 
 ## Descripción
 Dashboard construido con Vite + React + TypeScript.  
